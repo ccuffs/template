@@ -40,3 +40,7 @@ Administradores do projeto que não sigam ou não mantenham o Código de Conduta
 ## Atribuição
 
 Este Código de Conduta é adaptado do [Contributor Covenant (versão 1.4)](https://www.contributor-covenant.org/pt-br/version/1/4/code-of-conduct.html) e do [Código de conduta para colaboradores - pt-br](https://github.com/portabilis/i-educar/blob/master/code-of-conduct.md) do projeto [i-educar](https://github.com/portabilis/i-educar).
+
+# Versão
+
+* **1.0.0** - 2019-09-17: primeiro texto.
