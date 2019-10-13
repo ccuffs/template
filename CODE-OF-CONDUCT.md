@@ -33,7 +33,7 @@ Os administradores do projeto têm o direito e a responsabilidade de remover, ed
 Este Código de Conduta aplica-se dentro dos espaços do projeto ou qualquer espaço público onde alguém represente o mesmo ou a sua comunidade. Exemplos de representação do projeto ou comunidade incluem usar um endereço de email oficial do projeto, postar por uma conta de mídia social oficial, ou agir como um representante designado num evento online ou offline. A representação de um projeto pode ser ainda definida e esclarecida pelos administradores do projeto.
 
 ## Aplicação
-Comportamento abusivo, de assédio ou de outros tipos pode ser comunicado contatando a equipe do projeto `comunidade@portabilis.com.br`. Todas as queixas serão revistas e investigadas e resultarão numa resposta necessária e apropriada à situação. A equipe é obrigada a manter a confidencialidade em relação ao elemento que reportou o incidente. Demais detalhes de políticas de aplicação podem ser postadas separadamente.
+Comportamento abusivo, de assédio ou de outros tipos pode ser comunicado primeiramente contatando-se a equipe do projeto. Se isso não resolver, contate a coordenação geral através do e-mail `computacao.ch@uffs.edu.br`. Todas as queixas serão revistas e investigadas e resultarão numa resposta necessária e apropriada à situação. A equipe é obrigada a manter a confidencialidade em relação ao elemento que reportou o incidente. Demais detalhes de políticas de aplicação podem ser postadas separadamente.
 
 Administradores do projeto que não sigam ou não mantenham o Código de Conduta em boa fé podem enfrentar repercussões temporárias ou permanentes determinadas por outros membros da liderança do projeto.
 
@@ -43,4 +43,5 @@ Este Código de Conduta é adaptado do [Contributor Covenant (versão 1.4)](http
 
 # Versão
 
+* **1.0.1** - 2019-10-13: revisões de e-mails.
 * **1.0.0** - 2019-09-17: primeiro texto.
