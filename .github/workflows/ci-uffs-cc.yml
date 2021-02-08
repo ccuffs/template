@@ -13,7 +13,7 @@ jobs:
     name: Build, deploy and audit
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Extract branch name
       shell: bash
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
@@ -22,9 +22,8 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ env.BUILD_HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
+        username: ${{ secrets.CI_USERNAME }}
+        password: ${{ secrets.CI_PASSWORD }}
         script: |
           mkdir -p ${{ env.BUILD_WEB_DIRECTORY }}/${{ steps.extract_branch.outputs.branch }}/${{ github.sha }}
           mkdir -p ${{ env.BUILD_WEB_DIRECTORY }}/${{ steps.extract_branch.outputs.branch }}/${{ github.sha }}/_report
@@ -34,8 +33,8 @@ jobs:
         local: ${{ github.workspace }}/
         remote: ${{ env.BUILD_WEB_DIRECTORY }}/${{ steps.extract_branch.outputs.branch }}/${{ github.sha }}/
         host: ${{ env.BUILD_HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        username: ${{ secrets.CI_USERNAME }}
+        password: ${{ secrets.CI_PASSWORD }}
     - name: Audit site performance
       uses: jakejarvis/lighthouse-action@master
       with:
@@ -51,8 +50,8 @@ jobs:
         local: ${{ github.workspace }}/report
         remote: ${{ env.BUILD_WEB_DIRECTORY }}/${{ steps.extract_branch.outputs.branch }}/${{ github.sha }}/_report/
         host: ${{ env.BUILD_HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}  
+        username: ${{ secrets.CI_USERNAME }}
+        password: ${{ secrets.CI_PASSWORD }}  
     - name: Summary
       run: |
         echo "Summary:"
