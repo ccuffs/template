@@ -54,7 +54,7 @@ Veja o arquivo [ROADMAP.md](ROADMAP.md) para ter uma ideia de como o projeto dev
 
 ## 🎫 Licença
 
-Esse projeto é licenciado nos termos da licença open-source [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) e está disponível de graça.
+Esse projeto é licenciado nos termos da licença open-source [MIT](https://choosealicense.com/licenses/mit) e está disponível de graça.
 
 ## 🧬 Changelog
 
