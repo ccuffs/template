@@ -14,10 +14,10 @@ Coloque uma descrição do projeto aqui. Geralmente essa descrição tem de duas
 
 Aqui você pode colocar uma screenshot do produto resultante desse projeto. Descreva também suas features usando uma lista:
 
-* Fácil integração;
-* Poucas dependências;
-* Utiliza um template lindo para organizar o `README`;
-* Possui ótima documentação e testes.
+* ✔️ Fácil integração;
+* 🥢 Poucas dependências;
+* 🎨 Utiliza um template lindo para organizar o `README`;
+* 🖖 Possui ótima documentação e testes.
 
 ## 🚀 Começando
 
